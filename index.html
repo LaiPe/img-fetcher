@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>img-fetcher</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>img-fetcher</h1>
+    </header>
+    <main>
+      <form id="input-container">
+        <label for="url"
+          >Entrez l'URL de l'image que vous voulez afficher :</label
+        >
+        <input type="text" id="url" placeholder="https://..." />
+        <button type="submit">fetch</button>
+        <p id="feedback"></p>
+      </form>
+      <div id="img-container"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
